@@ -1,8 +1,7 @@
 #include <stdio.h>
-int main() { 
+int main() {
 
     int number1, number2, sum;
-
     printf("Enter two integers: ");
     scanf("%d %d", &number1, &number2);
 
@@ -12,12 +11,14 @@ int main() {
     return 0;
 }
 
-//function added in main
 
-int funcsub(int a, int b)
+//function added in branch1
+
+int func_sub(int a, int b)
 
 {
 
-    return a-b;
+diff = a-b;
 
+    return diff;
 }
